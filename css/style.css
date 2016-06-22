@@ -40,6 +40,21 @@ nav {
 .panel {
     border-radius: 0;
 }
-.highlight {
+.hl1 {
     color: #006699;
+}
+.hl2 {
+	color: #006666;
+}
+.hl3 {
+	color: #00688B;
+}
+.hl4 {
+	color: #003366;
+}
+.hl5 {
+	color: #03396C;
+}
+.hl6 {
+	color: #005555;
 }
