@@ -1,7 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Rasa';
 body {
     font-family: 'Rasa', serif;
-    min-height: 1200px;
     padding-top: 70px;
     font-size: 18px;
 }
@@ -57,4 +56,9 @@ nav {
 }
 .hl6 {
 	color: #005555;
+}
+
+footer {
+	margin-top: 100px;
+	color: #c1c1c1;
 }
