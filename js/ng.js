@@ -1,8 +1,20 @@
 $(function(){
+	
+	var $exam_active = "";
+	var $sub_active = "";
+	var $root = "";
+	
 	var $pagename = $(location).attr('href');
-	var $active = "active";
-	if($pagename.indexOf("index.html") > 0 || $pagename.indexOf("contact.html") > 0) {
-		$active = "";
+	if( $pagename.indexOf("subjects.html") > 0 || $pagename.indexOf("History/index.html") ) {
+		$sub_active = "active";
+		$exam_active = "";
+	} else if ( $pagename.indexOf("exams.html") > 0 || $pagename.indexOf("syllabi.html") > 0 ) {
+		$sub_active = "";
+		$exam_active = "active";
+	}
+	
+	if( $pagename.indexOf("History") > 0 || $pagename.indexOf("Instructor") > 0 || $pagename.indexOf("Surveyor") > 0 || $pagename.indexOf("Tribal") > 0 ) {
+		$root = "../"
 	}
 	
 	var $nav = '<nav class="navbar navbar-default navbar-fixed-top">' +
@@ -14,15 +26,16 @@ $(function(){
                         '<span class="icon-bar"></span>' +
                         '<span class="icon-bar"></span>' +
                     '</button>' +
-                    '<a class="navbar-brand" href="index.html"> <span class="symbol">ન</span> નવુ ગુજરાત</a>' +
+                    '<a class="navbar-brand" href="'+ $root +'index.html"> <span class="symbol">ન</span> નવુ ગુજરાત</a>' +
                 '</div>' +
                 '<div id="navbar" class="navbar-collapse collapse">' +
                     '<ul class="nav navbar-nav navbar-right">' +
-                        '<li class='+ $active +'><a href="select.html">સાહિત્ય</a></li>' +
+                        '<li class='+ $exam_active +'><a href="'+ $root +'exams.html">પરિક્ષા પ્રમાણે</a></li>' +
+						'<li class='+ $sub_active +'><a href="'+ $root +'subjects.html">વિષયવાર</a></li>' +
                     '</ul>' +
                 '</div>' +
             '</div>' +
-        '</nav>'
+        '</nav>';
 		
 	$('body').append($nav);
 	

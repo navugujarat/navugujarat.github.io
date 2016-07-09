@@ -5,10 +5,20 @@ body {
     padding-top: 70px;
     font-size: 18px;
 }
+
 nav {
     border-top: 5px solid black !important;
     background-color: #fff !important;
 }
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.navbar-brand:hover {
+    color: black !important;
+}
+
 .symbol {
     font-size: 33px;
     background: black;
@@ -24,47 +34,45 @@ nav {
     color: black;
 }
 
-.navbar-brand {
-    font-size: 25px;
-}
-.navbar-brand:hover {
-    color: black !important;
-}
-.devloper {
-    margin-top: 10%;
-}
-.col-md-6 p {
-    color: black;
-    font-size: 17px;
-}
-.panel {
-    border-radius: 0;
-}
-.hl1 {
-    color: #006699;
-}
-.hl2 {
-	color: #006666;
-}
-.hl3 {
-	color: #00688B;
-}
-.hl4 {
-	color: #003366;
-}
-.hl5 {
-	color: #03396C;
-}
-.hl6 {
-	color: #005555;
+a:hover {
+	text-decoration:none;
+	border-bottom: 1px dotted #ddd;
 }
 
-.contributions {
-	color: #999;
+.col-md-6 p {
+    color: black;
+    font-size: 18px;
+}
+
+.panel {
+    border-radius: 0;
 }
 
 footer {
 	margin-top: 50px;
 	color: #727272;
 	font-size: 15px;
+}
+
+/* Classes - Extras */
+
+.quote {
+    margin-top: 5%;
+	margin-bottom: 5%;
+	color: #d02461;
+}
+
+.contributions {
+	color: #999;
+	font-size: 15px;
+	padding-top: 3%;
+}
+
+.dates {
+	color: #bbb;
+	padding-right: 8px;
+}
+
+.updates, .highlight {
+	color: #ff5722;
 }
