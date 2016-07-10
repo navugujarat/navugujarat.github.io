@@ -40,6 +40,6 @@ $(function(){
 		
 	$('body').append($nav);
 	
-	var $footer = "<div class='container'><div class='row'><div class='col-md-3'></div><div class='col-md-6'><span class='hl2'>&copy; ૨૦૧૬ નવુ ગુજરાત. </span> અહી લખેલ દરેક લેખો <a href='https://creativecommons.org/licenses/by-sa/3.0/'>CC BY-SA 3.0</a> હેઠળ પ્રકાશીત કરેલ છે. આથી, અહી આપેલ સામગ્રીનો ઉપયોગ કરતા પહેલા આપેલ લિંક પર જઈને લાયસન્સ જરૂરથી વાંચવું. જો કોઈ લેખ પર બીજાનો અધિકાર હશે તો ત્યાં અલગથી જણાવેલ લાયસન્સને અનુસરવું. નવુ ગુજરાત સાથે વાત કરવા <a href='contact.html'>અહી ક્લિક કરો</a>.</div><div class='col-md-3'></div></div></div>"
+	var $footer = "<div class='container'><div class='row'><div class='col-md-3'></div><div class='col-md-6'><span class='highlight'>&copy; ૨૦૧૬ નવુ ગુજરાત. </span> અહી લખેલ દરેક લેખો <a href='https://creativecommons.org/licenses/by-sa/3.0/'>CC BY-SA 3.0</a> હેઠળ પ્રકાશીત કરેલ છે. આથી, અહી આપેલ સામગ્રીનો ઉપયોગ કરતા પહેલા આપેલ લિંક પર જઈને લાયસન્સ જરૂરથી વાંચવું. જો કોઈ લેખ પર બીજાનો અધિકાર હશે તો ત્યાં અલગથી જણાવેલ લાયસન્સને અનુસરવું. નવુ ગુજરાત સાથે વાત કરવા <a href='"+ $root +"contact.html'>અહી ક્લિક કરો</a>.</div><div class='col-md-3'></div></div></div>"
 	$('footer').append($footer);
 })
