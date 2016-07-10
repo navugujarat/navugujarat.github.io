@@ -74,5 +74,10 @@ footer {
 }
 
 .updates, .highlight {
-	color: #ff5722;
+	color: #ff5722 !important;
+}
+
+ul {
+	list-style-type: none;
+	line-height: 2;
 }
