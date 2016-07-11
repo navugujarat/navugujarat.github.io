@@ -14,7 +14,7 @@ $(function(){
 		$exam_active = "active";
 	}
 	
-	if( $pagename.indexOf("History") > 0 || $pagename.indexOf("Instructor") > 0 || $pagename.indexOf("Surveyor") > 0 || $pagename.indexOf("Tribal") > 0 || $pagename.indexOf("Mamaldar") > 0 || $pagename.indexOf("Literature") > 0 ) {
+	if( $pagename.indexOf("History") > 0 || $pagename.indexOf("Instructor") > 0 || $pagename.indexOf("Surveyor") > 0 || $pagename.indexOf("Tribal") > 0 || $pagename.indexOf("Mamaldar") > 0 || $pagename.indexOf("Literature") > 0 || $pagename.indexOf("Banking") > 0 ) {
 		$root = "../"
 	}
 	
