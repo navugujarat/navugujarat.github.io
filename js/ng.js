@@ -6,7 +6,7 @@ $(function(){
 	
 	var $pagename = $(location).attr('href');
 	
-	if( $pagename.indexOf("subjects.html") > 0 || $pagename.indexOf("History/index.html") > 0 ) {
+	if( $pagename.indexOf("subjects.html") > 0 || $pagename.indexOf("History/index.html") > 0 || $pagename.indexOf("English") > 0 ) {
 		$sub_active = "active";
 		$exam_active = "";
 	} else if ( $pagename.indexOf("exams.html") > 0 || $pagename.indexOf("syllabi.html") > 0 ) {
@@ -14,7 +14,7 @@ $(function(){
 		$exam_active = "active";
 	}
 	
-	if( $pagename.indexOf("History") > 0 || $pagename.indexOf("Instructor") > 0 || $pagename.indexOf("Surveyor") > 0 || $pagename.indexOf("Tribal") > 0 || $pagename.indexOf("Mamaldar") > 0 || $pagename.indexOf("Literature") > 0 || $pagename.indexOf("Banking") > 0 || $pagename.indexOf("Bin-Sachivalay") > 0 ) {
+	if( $pagename.indexOf("History") > 0 || $pagename.indexOf("Instructor") > 0 || $pagename.indexOf("Surveyor") > 0 || $pagename.indexOf("Tribal") > 0 || $pagename.indexOf("Mamaldar") > 0 || $pagename.indexOf("Literature") > 0 || $pagename.indexOf("Banking") > 0 || $pagename.indexOf("Bin-Sachivalay") > 0 || $pagename.indexOf("English") > 0 ) {
 		$root = "../"
 	}
 	
