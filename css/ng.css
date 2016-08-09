@@ -7,12 +7,12 @@ body {
 }
 
 nav {
-    border-top: 5px solid black !important;
     background-color: #fff !important;
 }
 
 .navbar-brand {
     font-size: 25px;
+	color:#ef3e42 !important;
 }
 
 .navbar-brand:hover {
@@ -37,15 +37,6 @@ nav {
 a:hover {
 	text-decoration:none;
 	border-bottom: 1px dotted #ddd;
-}
-
-.col-md-6 p {
-    color: black;
-    font-size: 18px;
-}
-
-.panel {
-    border-radius: 0;
 }
 
 footer {
