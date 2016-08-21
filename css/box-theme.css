@@ -25,13 +25,21 @@ body {
 }
 
 .box {
-	-moz-box-shadow: 0 0 5px #ccc;
-	-webkit-box-shadow: 0 0 5px #ccc;
-	box-shadow: 0 0 5px #ccc;
+	-moz-box-shadow: 0 0 1px #ccc;
+	-webkit-box-shadow: 0 0 1px #ccc;
+	box-shadow: 0 0 1px #ccc;
 	border:  5px solid #fff;
 	background: #fff;
 	margin-bottom: 1rem;
 	padding-left: 1rem;
+}
+
+.box:hover {
+	-moz-box-shadow: 0 0 3px #ccc;
+	-webkit-box-shadow: 0 0 3px #ccc;
+	box-shadow: 0 0 3px #ccc;
+	border:  5px solid #ccc;
+	cursor: pointer;
 }
 
 .box-item {
@@ -47,8 +55,8 @@ hr {
 	padding-bottom: 20px;
 }
 
-.jumbotron p {
-	font-size: 18px;
+.jumbotron li {
+	font-size: 20px;
 }
 
 .jumbotron-top {
