@@ -31,6 +31,27 @@ body {
 	padding-right: 10px;
 }
 
+.post-header {
+	text-align: center;
+}
+.post-header h2 {
+	font-size: 3rem;
+	margin-bottom: 0;
+}
+.post-header small {
+	font-size: 1.5rem;
+}
+
+blockquote {
+	text-align: center;
+	font-style: italic;
+}
+
+blockquote p {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
 a {
 	color: #0366d6;
 	text-decoration: none;
@@ -62,4 +83,8 @@ footer {
 	color: #777;
 	margin: 5%;
 	text-align: center;
+}
+
+.author {
+	text-align: right;
 }
