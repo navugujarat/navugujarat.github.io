@@ -88,3 +88,19 @@ footer {
 .author {
 	text-align: right;
 }
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;   
+}
